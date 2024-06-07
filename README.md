@@ -20,7 +20,7 @@ kubectl create namespace kafka
 helm repo add strimzi https://strimzi.io/charts/
 
 # install the chart with the release name my-release:
-helm install kafka-operator strimzi/strimzi-kafka-operator --version 0.28.0 -n kafka
+helm install kafka-operator strimzi/strimzi-kafka-operator --version 0.40.0 -n kafka
 
 # 배포한 리소스 확인 : CRDs
 kubectl get crd
